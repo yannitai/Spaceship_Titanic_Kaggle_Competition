@@ -1,4 +1,4 @@
-# Spaceship_Titanic_Kaggle_Competition
+# Spaceship Titanic Kaggle Competition
 
 ## Overview
 This project is based on the Kaggle competition - [Spaceship Titanic](https://www.kaggle.com/competitions/spaceship-titanic/overview). The goal is to predict whether passengers aboard the spaceship Titanic during its collision were transported to an alternate dimension.
