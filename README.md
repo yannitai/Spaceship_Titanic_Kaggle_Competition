@@ -8,13 +8,13 @@ This project is based on the Kaggle competition - [Spaceship Titanic](https://ww
 The dataset is divided into train and test sets with passenger information like name, cabin, and expenses on the spaceship.
 
 ## Exploratory Data Analysis (EDA)
-- Distribution and count of the 'Transported' target variable.
+- Distribution and count of the `Transported` target variable.
 - Identification of missing values across features.
 - Visualization of data distributions and relationships among features.
 
 ## Data Preprocessing
 - Missing values are addressed by imputation techniques.
-- Binary variables like 'CryoSleep' are transformed into numerical.
+- Binary variables like `CryoSleep` are transformed into numerical.
 - Categorical variables are one-hot encoded for model compatibility.
 
 ## Feature Engineering
@@ -41,7 +41,7 @@ Multiple models are trained and validated:
 - Model performance is assessed using accuracy, and the best models are identified based on their cross-validation scores.
 
 ## Kaggle Competition Submission
-The best model is used to predict the 'Transported' status of passengers in the test set, and the predictions are submitted to the Kaggle competition.
+The best model is used to predict the `Transported` status of passengers in the test set, and the predictions are submitted to the Kaggle competition.
 
 ## Results
 The highest Kaggle accuracy achieved is 0.8034 with a VotingClassifier ensemble method.
@@ -53,3 +53,4 @@ The highest Kaggle accuracy achieved is 0.8034 with a VotingClassifier ensemble 
 - `main.ipynb` - Jupyter notebook with all the analysis and model building
 
 
+**Note:** This project is part of the coursework for SI 618: Data Manipulation and Analysis.
